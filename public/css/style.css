@@ -3,6 +3,8 @@
 	background-color: black;
 	height:40px;
 	margin-top:-25px;
+	margin-right:-20;
+	margin-left:0;
 
 }
 
@@ -17,10 +19,6 @@
 .top-navigation .links  a {
     display: inline-block;
     margin-left: 10px;
-}
-.top-navigation .links  p {
-    display: inline-block;
-    margin-left: 20px;
 }
 
 a:link {
