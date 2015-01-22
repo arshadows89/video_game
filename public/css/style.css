@@ -1,0 +1,39 @@
+.top-navigation {
+	font-size:12px;
+	background-color: black;
+	height:40px;
+	margin-top:-25px;
+
+}
+
+.top-navigation .links {
+	letter-spacing: 0.03em;
+	float:right;
+	margin-right:20px;
+    font-family: 'Roboto', sans-serif;
+    color: #838994;
+    
+}
+.top-navigation .links  a {
+    display: inline-block;
+    margin-left: 10px;
+}
+.top-navigation .links  p {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+a:link {
+	    font-family: 'Roboto', sans-serif;
+    color: #838994;
+	text-decoration: none;
+}
+
+a:visited {
+	text-decoration: none;
+    color: #838994;
+}
+.top-navigation .links a:hover {
+    cursor: pointer;
+    color: #333333;
+}
