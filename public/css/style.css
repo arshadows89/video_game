@@ -220,3 +220,17 @@ div.class_navbar p {
   padding: 2em;
   border-radius: 16px;
 }
+#monk_vid,
+.monk_img,
+.wizz_img,
+#wizz_vid,
+.dh_img,
+#dh_vid,
+.witch_img,
+#witch_vid,
+.crusader_img,
+#crusader_vid,
+.glad_img,
+#glad_vid{
+  display: none;
+}

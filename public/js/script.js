@@ -37,3 +37,46 @@ $(function(){
     height: 900
   });
 });
+
+$(document).ready(
+  function(){
+  $("#glad_icon").click(
+    function() {
+      $('.glad_img').show();
+      $('#glad_vid').show();
+  };
+    function(){
+  $("#crusader_icon").click(
+    function() {
+      $('.crusader_img').show();
+      $('#crusader_vid').show();
+  };
+    function(){
+  $("#monk_icon").click(
+    function() {
+      $('.monk_img').show();
+      $('#monk_vid').show();
+  };
+    function(){
+  $("#wizz_icon").click(
+    function() {
+      $('.wizz_img').show();
+      $('#wizz_vid').show();
+  };
+  $("#dh_icon").click(
+    function() {
+      $('.dh_img').show();
+      $('#dh_vid').show();
+  };
+   $("#witch_icon").click(
+    function() {
+      $('.witch_img').show();
+      $('#witch_vid').show();
+  };
+  }
+)
+
+
+
+
+  // demon hunter icon also needs to be added
