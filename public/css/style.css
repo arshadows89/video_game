@@ -65,6 +65,10 @@ div#inner-slideshow {
 }
 
 
+body .homebg {
+	background-image: url("../images/homebg.png");
+}
+
 footer {
 	height:50px;
 	background-image: url("../images/footer.png");
@@ -74,6 +78,14 @@ footer {
 	bottom: 0;
 	background-color: black;
 
+
+}
+
+.slidesjs-container {
+	width: 100%;
+	height: auto;
+}
+.slidesjs-control {
 
 }
 
@@ -122,4 +134,3 @@ div.slimScroll {
 .scrollBarContainer .scrollBar {
     opacity: 0.5;
 }
-
