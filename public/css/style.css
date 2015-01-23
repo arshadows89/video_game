@@ -224,6 +224,12 @@ div.class_navbar {
 .crusader_img,
 #crusader_vid,
 .glad_img,
-#glad_vid{
+#glad_vid,
+#class_column2 {
   display: none;
 }
+
+.columns {
+  padding-top: 20px;
+}
+
