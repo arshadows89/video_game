@@ -108,7 +108,8 @@ div.slimScroll {
     overflow: hidden;
     position: relative;
     font-size: 75%;
-    height:80%;
+    height:100%; 
+    margin-bottom: 5%;
 
 }
 .wrapper, .scroll-wrapper {
