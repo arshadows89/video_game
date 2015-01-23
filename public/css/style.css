@@ -135,3 +135,34 @@ div.slimScroll {
 .scrollBarContainer .scrollBar {
     opacity: 0.5;
 }
+
+#class_columm1, img {
+  width: 100%;
+  height: auto;
+}
+
+#class_column1 {
+  float: right;
+  left: 0;
+  top: 0;
+  width: 20%;
+}
+
+#class_column2 {
+  font-size: 20px;
+  float: left;
+  right: 0;
+  top: 0;
+  padding-left: 2em;
+  font-weight: 100;
+  width: 75%;
+}
+
+#class_column2, ul {
+  list-style-type: none;
+  }
+
+.indent_li {
+  padding-bottom: 1em;
+  padding-left: 3em;
+}
