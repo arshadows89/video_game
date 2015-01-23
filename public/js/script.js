@@ -33,7 +33,7 @@ $(function(){
 });
 $(function(){
   $("#slides").slidesjs({
-    width: 200,
-    height: 993
+    width: 1200,
+    height: 900
   });
 });

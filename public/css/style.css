@@ -43,7 +43,6 @@ a:visited {
     color: #333333;
 }
 
-<<<<<<< HEAD
 .slidesjs-navigation,
 .slidesjs-pagination {
 	display: none;
@@ -65,7 +64,7 @@ div#outer-slidershow {
 div#inner-slideshow {
 	text-align: center;
 }
-=======
+
 body .homebg {
 	background-image: url("../images/homebg.png");
 }
@@ -77,4 +76,15 @@ footer {
 	position:fixed;
 	bottom: 0;
 }
->>>>>>> 6d8f56bc52b96edd8cc769b0fd5f2f9d198fb19d
+.slidesjs-container {
+	width: 100%;
+	height: auto;
+}
+.slidesjs-control {
+
+}
+
+
+
+
+/*    Plugin.prototype.update = function()   might be the key to adjusting the width or redo the center image thing for outer-slideshow... might be easier*/
