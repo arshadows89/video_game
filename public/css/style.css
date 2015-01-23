@@ -232,4 +232,16 @@ div.class_navbar {
 .columns {
   padding-top: 20px;
 }
-
+.class_align {
+  text-align: center;
+  width: 100%;
+}
+#glad_icon,
+#crusader_icon,
+#monk_icon,
+#wizz_icon,
+#witch_icon,
+#dh_icon {
+  padding-bottom: 50px;
+  margin-bottom: 50px;
+}
