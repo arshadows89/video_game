@@ -39,3 +39,7 @@ a:visited {
     color: #333333;
 }
 
+body .homebg {
+	background-image: url("../images/homebg.png");
+}
+
