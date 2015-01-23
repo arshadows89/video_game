@@ -169,3 +169,37 @@ div.slimScroll {
   padding-bottom: 1em;
   padding-left: 3em;
 }
+div.class_navbar img {
+  height: 120px;
+}
+div.class_navbar li {
+  float: left;
+  width: 15%;
+  padding-bottom: 100px;
+}
+div.class_navbar ul {
+  
+}
+div.class_navbar {
+  float: none;
+}
+
+div.class_navbar p {
+  text-align: center;
+  font-size: 3em;
+}
+
+.spell_names,
+.class_story {
+  font-weight: 110;
+  font-size: 23px;
+}
+
+.spells {
+  font-weight: 110;
+  font-size: 23px;
+}
+.footer_adjustment {
+  margin-bottom: 20px;
+}
+
