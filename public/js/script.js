@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+    $(function(){
+      $("#slides").slidesjs({
+        width: 940,
+        height: 528
+      });
+    });
+
+    $(document).ready(function()
+{
+    $("#scrollbar1").tinyscrollbar();
+});
+        
+=======
 $(function(){
   $("#slides").slidesjs({
 
@@ -37,3 +51,4 @@ $(function(){
     height: 900
   });
 });
+>>>>>>> ee7fff1fc0dbafb80b70734fbbe0c798e3779fd5
