@@ -1,27 +1,31 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
 .top-navigation {
-	font-size:12px;
+
 	background-color: black;
 	background-image: url("../images/navbg.png");
-
+	width:100%;
 	background-repeat:no-repeat; ;
 	height:90px;
-	margin-top:-40px;
-
-
+	position:fixed;
+	top:0;
 }
 
 .top-navigation .links {
-	letter-spacing: 0.03em;
-	float:right;
-	margin-right:20px;
+	margin-left:50%;
+
     font-family: 'Roboto', sans-serif;
     color: #838994;
+      margin-top:30px;
     
 }
 .top-navigation .links  a {
-    display: inline-block;
+
     margin-left: 10px;
-    margin-top:30px;
+  
 }
 
 a:link {
@@ -43,3 +47,10 @@ body .homebg {
 	background-image: url("../images/homebg.png");
 }
 
+footer {
+	height:80px;
+	width:100%;
+	background-color:black;
+	position:fixed;
+	bottom: 0;
+}
