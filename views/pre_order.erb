@@ -1,15 +1,11 @@
-<form action="/contact" method="POST">
-	<label for="name">Full Name</label><br>
-	<input type="text" name="name"><br>
-	<label for="cardNumber">Credit card number</label><br>
-	<input type="text" name="cardNumber"><br>
-	<label for="Security">Security Code (In the back)</label><br>
-	<input type="text" name="Security"><br>
-	<label for="address">Address</label><br>
-	<input type="text" name="address"><br>
-	<label for="zip">Zip Code</label><br>
-	<input type="text" name="zip"><br>
-	<label for="email">Email address</label><br>
-	<input type="text" name="email"><br><br>
-	<input type="submit" value="submit">
+<h1>Please send us your thoughts!</h1>
+
+<form method="POST" action="/contact">
+	<p><label for="name">Name</label>
+	<input name="name" type="text"></p>
+	<p><label for="email">Email</label>
+	<input name="email" type="text"></p>
+	<p><label for="message">Message</label>
+	<textarea name="message"></textarea></p>
+	<p><input type="submit"></p>
 </form>
