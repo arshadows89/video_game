@@ -72,9 +72,8 @@ $(document).ready(
     function() {
       $('.witch_img').show();
       $('#witch_vid').show();
-  };
   }
-)
+})
 
 
 
