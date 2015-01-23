@@ -64,10 +64,7 @@ div#outer-slidershow {
 div#inner-slideshow {
 	text-align: center;
 }
-<<<<<<< HEAD
 
-=======
->>>>>>> 0ce48042b70ccc384162a0fba41aa2d1cc186027
 body .homebg {
 	background-image: url("../images/homebg.png");
 }
@@ -86,7 +83,7 @@ footer {
 
 
 }
-<<<<<<< HEAD
+
 .slidesjs-container {
 	width: 100%;
 	height: auto;
@@ -94,12 +91,6 @@ footer {
 .slidesjs-control {
 
 }
-
-
-
-
-/*    Plugin.prototype.update = function()   might be the key to adjusting the width or redo the center image thing for outer-slideshow... might be easier*/
-=======
 
 footer > p {
 	color:grey;
@@ -146,5 +137,3 @@ div.slimScroll {
 .scrollBarContainer .scrollBar {
     opacity: 0.5;
 }
-
->>>>>>> 0ce48042b70ccc384162a0fba41aa2d1cc186027
