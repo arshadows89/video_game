@@ -7,24 +7,24 @@ html, body {
 
 	background-color: black;
 	background-image: url("../images/navbg.png");
+	background-size: 100% 100%;
 	width:100%;
-	background-repeat:no-repeat; ;
-	height:90px;
+	height:50px;
 	position:fixed;
 	top:0;
 }
 
 .top-navigation .links {
-	margin-left:50%;
-
     font-family: 'Roboto', sans-serif;
     color: #838994;
-      margin-top:30px;
+      float:right;
+      margin-right: 20px;
+      margin-top:25px;
     
 }
 .top-navigation .links  a {
-
-    margin-left: 10px;
+	
+    margin-right: 15px;
   
 }
 
@@ -43,14 +43,50 @@ a:visited {
     color: #333333;
 }
 
-body .homebg {
-	background-image: url("../images/homebg.png");
-}
-
 footer {
-	height:80px;
+	height:50px;
 	width:100%;
-	background-color:black;
-	position:fixed;
+	background-image: url("../images/footer.png");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	position: fixed;
 	bottom: 0;
 }
+
+div.slimScroll {
+	color:#B8B8B8 ;
+    background-color: transparent;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    margin-top:60px;
+    overflow: hidden;
+    position: relative;
+}
+.wrapper, .scroll-wrapper {
+    padding: 5px;
+}
+.scroll-wrapper.mac + .scrollBarContainer{
+    background-color: transparent;
+}
+.scrollBarContainer.animate .scroll{
+    transition: 1s opacity ease;
+    opacity: 0;
+}
+.scrollBarContainer:hover .scroll{
+    opacity: 0.5;
+    transition: none;
+}
+.unselectable {
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: -moz-none;
+    -o-user-select: none;
+    user-select: none;
+} 
+
+.scrollBarContainer .scrollBar {
+    opacity: 0.5;
+}
+

@@ -4,3 +4,9 @@
         height: 528
       });
     });
+
+    $(document).ready(function()
+{
+    $("#scrollbar1").tinyscrollbar();
+});
+        
