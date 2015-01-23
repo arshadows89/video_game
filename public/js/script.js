@@ -44,35 +44,101 @@ $(document).ready(
     function() {
       $('.glad_img').show();
       $('#glad_vid').show();
-  };
-    function(){
+      $('.crusader_img').hide();
+      $('#crusader_vid').hide();
+      $('.monk_img').hide();
+      $('#monk_vid').hide();
+      $('.wizz_img').hide();
+      $('#wizz_vid').hide();
+      $('.dh_img').hide();
+      $('#dh_vid').hide();
+      $('.witch_img').hide();
+      $('#witch_vid').hide();
+      $('#class_column2').show();
+  })
+
   $("#crusader_icon").click(
     function() {
+      $('.glad_img').hide();
+      $('#glad_vid').hide();
       $('.crusader_img').show();
       $('#crusader_vid').show();
-  };
-    function(){
+      $('.monk_img').hide();
+      $('#monk_vid').hide();
+      $('.wizz_img').hide();
+      $('#wizz_vid').hide();
+      $('.dh_img').hide();
+      $('#dh_vid').hide();
+      $('.witch_img').hide();
+      $('#witch_vid').hide();
+      $('#class_column2').show();
+  })
+
   $("#monk_icon").click(
     function() {
+      $('.glad_img').hide();
+      $('#glad_vid').hide();
+      $('.crusader_img').hide();
+      $('#crusader_vid').hide();
       $('.monk_img').show();
       $('#monk_vid').show();
-  };
-    function(){
+      $('.wizz_img').hide();
+      $('#wizz_vid').hide();
+      $('.dh_img').hide();
+      $('#dh_vid').hide();
+      $('.witch_img').hide();
+      $('#witch_vid').hide();
+      $('#class_column2').show();
+  })
+
   $("#wizz_icon").click(
     function() {
+      $('.glad_img').hide();
+      $('#glad_vid').hide();
+      $('.crusader_img').hide();
+      $('#crusader_vid').hide();
+      $('.monk_img').hide();
+      $('#monk_vid').hide();
       $('.wizz_img').show();
       $('#wizz_vid').show();
-  };
+      $('.dh_img').hide();
+      $('#dh_vid').hide();
+      $('.witch_img').hide();
+      $('#witch_vid').hide();
+      $('#class_column2').show();
+  })
   $("#dh_icon").click(
     function() {
+      $('.glad_img').hide();
+      $('#glad_vid').hide();
+      $('.crusader_img').hide();
+      $('#crusader_vid').hide();
+      $('.monk_img').hide();
+      $('#monk_vid').hide();
+      $('.wizz_img').hide();
+      $('#wizz_vid').hide();
       $('.dh_img').show();
       $('#dh_vid').show();
-  };
+      $('.witch_img').hide();
+      $('#witch_vid').hide();
+      $('#class_column2').show();
+  })
    $("#witch_icon").click(
     function() {
+      $('.glad_img').hide();
+      $('#glad_vid').hide();
+      $('.crusader_img').hide();
+      $('#crusader_vid').hide();
+      $('.monk_img').hide();
+      $('#monk_vid').hide();
+      $('.wizz_img').hide();
+      $('#wizz_vid').hide();
+      $('.dh_img').hide();
+      $('#dh_vid').hide();
       $('.witch_img').show();
       $('#witch_vid').show();
-  }
+      $('#class_column2').show();
+  });
 })
 
 
