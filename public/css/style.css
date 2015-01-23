@@ -35,3 +35,24 @@ a:visited {
     color: #333333;
 }
 
+.slidesjs-navigation,
+.slidesjs-pagination {
+	display: none;
+}
+
+img.slidesjs-slide {
+	width: 100%;
+	height: auto;
+}
+div#outer-slidershow {
+  margin: auto;
+  left:0;
+  right: 0;
+  top: 0;
+  bottom: 0;  
+  width: 50%;
+}
+
+div#inner-slideshow {
+	text-align: center;
+}
