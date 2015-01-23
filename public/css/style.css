@@ -60,6 +60,7 @@ div#outer-slidershow {
   top: 0;
   bottom: 0;  
   width: 50%;
+  padding-top: 5%;
 }
 
 div#inner-slideshow {
@@ -77,7 +78,10 @@ footer {
 	position: fixed;
 	bottom: 0;
   padding-bottom: 1%;
+  margin-top: 100px;
 	background-color: black;
+  width:100%;
+
 
 
 }
@@ -169,6 +173,7 @@ div.slimScroll {
   padding-bottom: 1em;
   padding-left: 3em;
 }
+
 div.class_navbar img {
   height: 120px;
 }
@@ -203,3 +208,15 @@ div.class_navbar p {
   margin-bottom: 20px;
 }
 
+#lore {
+  color:black ;
+  padding-bottom:100px;
+  padding-left:20%;
+  padding-right:20%;
+}
+
+#lore2 {
+  background-color: rgba(102,204,255,.5);
+  padding: 2em;
+  border-radius: 16px;
+}
