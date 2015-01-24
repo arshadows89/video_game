@@ -105,11 +105,12 @@ footer > p {
 }
 
 div.slimScroll {
+  font-family: "Arial", Helvetica, sans-serif;
 	color:#B8B8B8 ;
     background-color: transparent;
     margin-left: auto;
     margin-right: auto;
-    width: 45%;
+    width: 41%;
     overflow: hidden;
     position: relative;
     font-size: 75%;
@@ -179,16 +180,6 @@ div.class_navbar {
   margin-bottom:300px;
  
 }
-/*div.class_navbar li {
-  float: left;  
-  margin-left:20px;
-  padding-bottom: 100px;
-}*/
-
-div.class_navbar {
-
-}
-
 
 .spell_names,
 .class_story {
@@ -235,6 +226,64 @@ div.class_navbar {
 }
 
 
-form {
-  margin-left:50px;
-  margin-top: 50px;
+#pay {
+  font-family: "Arial", Helvetica, sans-serif;
+  padding: 10px 25px; 
+  border-radius: 25px;
+  background-color: rgba(40,0,0,.6); 
+  margin-right:auto;
+  margin-left:auto;
+  width: 500px;
+  height: 450px;
+  color:white;
+  margin-top: 30px;
+  
+ }
+ 
+#buynow{
+  text-align: center;
+  font-family: "Arial", Helvetica, sans-serif;
+  color:#FFFF33;
+}
+
+.pulse{
+
+  animation-name: pulse;
+  -webkit-animation-name: pulse;  
+
+  animation-duration: 1.5s; 
+  -webkit-animation-duration: 1.5s;
+
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(0.9);
+    opacity: 0.7;   
+  }
+  50% {
+    transform: scale(1);
+    opacity: 1; 
+  } 
+  100% {
+    transform: scale(0.9);
+    opacity: 0.7; 
+  }     
+}
+
+@-webkit-keyframes pulse {
+  0% {
+    -webkit-transform: scale(0.95);
+    opacity: 0.7;   
+  }
+  50% {
+    -webkit-transform: scale(1);
+    opacity: 1; 
+  } 
+  100% {
+    -webkit-transform: scale(0.95);
+    opacity: 0.7; 
+  }     
+}
