@@ -104,7 +104,7 @@ footer > p {
 
 }
 
-div.slimScroll {
+div.homediv {
   font-family: "Arial", Helvetica, sans-serif;
 	color:#B8B8B8 ;
     background-color: transparent;
@@ -113,25 +113,12 @@ div.slimScroll {
     width: 41%;
     overflow: hidden;
     position: relative;
-    font-size: 75%;
+    font-size: 60%;
     height:100%; 
     margin-bottom: 5%;
 
 }
-.wrapper, .scroll-wrapper {
-    padding: 10px;
-}
-.scroll-wrapper.mac + .scrollBarContainer{
-    background-color: transparent;
-}
-.scrollBarContainer.animate .scroll{
-    transition: 1s opacity ease;
-    opacity: 0;
-}
-.scrollBarContainer:hover .scroll{
-    opacity: 0.5;
-    transition: none;
-}
+
 .unselectable {
     -webkit-user-select: none;
     -khtml-user-select: none;
@@ -140,9 +127,6 @@ div.slimScroll {
     user-select: none;
 } 
 
-.scrollBarContainer .scrollBar {
-    opacity: 0.5;
-}
 
 
 #class_image {
